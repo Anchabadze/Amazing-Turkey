@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 1600px;
+    font-family: 'Arial';
+    margin: 0;
+  }
+  
+  /* Amazing styles start */
+  
+  .amazing {
+      width: 1600px;
+      height: 768px;
+      background: #F3F4F6;
+      overflow: hidden;
+    }
+    
+    .amazing__logo {
+      margin-top: 48px;
+      margin-left: 64px;
+      width: 176px;
+      height: 36px;
+    
+      fill: #EF4444;
+    }
+    
+    .amazing__ballon {
+      position: absolute;
+      left: 64px;
+      top: 132px;
+      z-index: 1;
+    }
+    
+    .amazing__circle_small {
+      width: 480px;
+      height: 480px;
+      position: absolute;
+      top: 280px;
+      left: 64px;
+      border-radius: 50%;
+      
+      background: #EF4444;
+    }
+    
+    .amazing__circle_big {
+      position: absolute;
+      width: 1196px;
+      height: 1196px;
+      left: 988px;
+      top: -598px;
+      border-radius: 50%;
+      z-index: 0;
+      
+      background: #EF4444;
+    }
+    
+    .amazing__title {
+      position: relative;
+      margin-top: 192px;
+      margin-left: 36%;
+  
+      font-style: normal;
+      font-weight: 700;
+      font-size: 96px;
+      line-height: 96px;
+    
+      color: #000000;
+    }
+    
+    .amazing__description {
+      margin-top: 64px;
+      margin-left: 37%;
+      margin-right: 500px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+    
+     color: #000000;
+    }
+  
+  /* Amazing styles end */

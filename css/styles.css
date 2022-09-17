@@ -161,6 +161,96 @@ html {
 
   /* Ataturk styles start */
 
+  .ataturk {
+    height: 600px;
+    left: 0px;
+    top: 1524px;
+  
+    background: #F3F4F6;
+  }
+  
+  .ataturk__subtitle {
+    margin-top: 24px;
+    margin-left: 319px;
+    width: 387px;
+    height: 72px;
+
+    
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    
+    text-align: right;
+    
+    color: #000000;
+  }
+  
+  .ataturk__title {
+    padding-top: 160px;
+    margin-left: 170px;
+    width: 536px;
+    height: 144px;
+ 
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    
+    text-align: right;
+    
+    color: #000000;
+  }
+  
+  .ataturk__more {
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 529px;
+    width: 138px;
+    height: 36px;
+  
+    
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    
+    text-align: right;
+    text-decoration-line: underline;
+    
+    color: #EF4444;
+  }
+  
+  .ataturk__arrow_right {
+    display: inline-block;
+    margin-top: 56px;
+    margin-left: 12px;
+    width: 24px;
+    height: 20px;
+    
+    fill: #EF4444;
+  }
+  
+  .ataturk__circle {
+    position: absolute;
+    top: 1800px;
+    left: 860px;
+    width: 640px;
+    height: 640px;
+    border-radius: 50%;
+    background: #EF4444;
+  }
+  
+  .ataturk__img {
+    position: absolute;
+    width: 562px;
+    height: 530px;
+    left: 774px;
+    top: 1712px;
+  }
 
   /* Ataturk styles end */
 

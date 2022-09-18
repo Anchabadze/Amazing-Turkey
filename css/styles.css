@@ -7,6 +7,12 @@ html {
     font-family: 'Arial';
     margin: 0;
   }
+
+  .wrapper {
+    max-width: 1600px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+  }
   
   /* Amazing styles start */
   
@@ -327,7 +333,30 @@ html {
 
   /* Footer styles start */
 
+  .footer {
+    height: 346px;
+    background-color: #9CA3AF;
+    padding: 48px 64px;
+  }
 
+  .footer__logo-pic {
+    margin-bottom: 36px;
+    fill: white;
+  }
+
+  .footer__descr {
+    width: 640px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+  }
+
+  .footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
    /* Footer styles end */
   

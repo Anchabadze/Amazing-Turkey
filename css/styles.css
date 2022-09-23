@@ -339,6 +339,12 @@ html {
     padding: 48px 64px;
   }
 
+  .footer__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+  }
+
   .footer__logo-pic {
     margin-bottom: 36px;
     fill: white;
@@ -361,7 +367,10 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 380px;
+  }
+
+  .footer__menu {
+    margin-right: 64px;
   }
 
   .footer__menu-title {
@@ -380,6 +389,12 @@ html {
     font-weight: 400;
     font-size: 16px;
     text-decoration-line: underline;
+  }
+
+  .footer__divider {
+    width: 1472px;
+    height: 2px;
+    background: rgba(249, 250, 251, 0.5);
   }
 
 

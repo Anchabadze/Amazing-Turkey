@@ -58,6 +58,7 @@ html {
       top: -598px;
       border-radius: 50%;
       z-index: 0;
+      overflow: hidden;
       
       background: #EF4444;
     }

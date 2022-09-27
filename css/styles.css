@@ -9,7 +9,7 @@ html {
   }
 
   .wrapper {
-    max-width: 1600px; 
+    width: 1600px; 
     margin: 0 auto; 
     padding: 0 15px; 
   }
@@ -17,7 +17,7 @@ html {
   /* Amazing styles start */
   
   .amazing {
-      width: 1600px;
+      position: relative;
       height: 768px;
       background: #F3F4F6;
       overflow: hidden;
@@ -58,8 +58,6 @@ html {
       top: -598px;
       border-radius: 50%;
       z-index: 0;
-      overflow: hidden;
-      
       background: #EF4444;
     }
     

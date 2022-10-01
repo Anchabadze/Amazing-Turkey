@@ -102,15 +102,13 @@ html {
   }
 
   .facts {
+    position: relative;
     max-height: 756px;
     background: #FFFFFF;
-    padding-top: 100px;
-    padding-bottom: 148px;
+    padding: 100px 228px 148px 228px;
   }
   
   .facts__subtitle {
-    margin-left: 232px;
-    
     font-family: Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -124,9 +122,6 @@ html {
   }
   
   .facts__title {
-    margin-top: 12px;
-    margin-left: 228px;
-    
     font-family: Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -137,9 +132,16 @@ html {
   
   }
 
-  .row {
-    margin-left: 228px;
-    margin-right: 228px;
+  .fact {
+    grid-column: span 1;
+  }
+
+  .facts__wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 48px;
+    row-gap: 48px;
   }
   
   .facts__text_bold {
